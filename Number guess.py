@@ -1,6 +1,7 @@
 # Python testing simple app too see if i like it??
 # Written in VS2019 Community 
 # By Numaticjoe 2022 
+# Fixed a bug that wouldnt print you guessed it! 31/3/22
 
 import random 
 n = random.randint (1, 10)
@@ -17,3 +18,4 @@ while n != "guess":
 	else:
 		print ("you guessed it!")
 		break
+		print
